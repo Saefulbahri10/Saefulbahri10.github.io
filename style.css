@@ -1,0 +1,189 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* responsif */
+@media screen and (max-width: 577px) {
+  .navbar {
+    background-color: #fff;
+  }
+
+  #about .row {
+    line-height: 17px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #project {
+    position: static;
+    height: auto;
+  }
+
+  #skill img {
+    height: 40px;
+    padding: 5px;
+  }
+}
+
+/* end */
+
+#header {
+  background-image: url("asset/img_logo/header1.jpg");
+  color: #fff;
+  height: 500px;
+}
+
+.container .row {
+  position: relative;
+  width: auto;
+  padding-top: 50px;
+}
+
+#header .col {
+  padding-top: 100px;
+}
+
+#header h1 {
+  font-size: 45px;
+}
+
+/* navbar ................................................ */
+.navbar {
+  background-color: #191919;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container .navbar .fixed-top {
+  background-color: #191919 !important;
+  color: #fff;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #bbb;
+}
+
+.col .h1 {
+  font-style: bold;
+}
+
+/* about ................................................. */
+
+#about {
+  background-color: #fff;
+  color: #191919;
+  height: auto;
+}
+#about h4 {
+  color: #191919;
+  font-weight: 500;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #191919;
+  font-style: normal;
+}
+
+.row {
+  margin-top: 1px;
+  padding-top: 10px;
+  height: auto !important;
+  width: 500px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* project ............................................................. */
+
+#project {
+  background-color: #191919;
+  color: #fff;
+  height: auto;
+  left: 0px;
+  top: 799px;
+}
+
+#project .row {
+  padding-bottom: 3px;
+}
+
+#project .card {
+  background-color: transparent;
+  border: 1px !important;
+  border-color: #fff;
+  padding-bottom: 5px;
+  box-shadow: 1px 3px 1px #bbb;
+  height: 400px;
+}
+
+#project img {
+  width: auto;
+  height: 300px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+/* Skill .............................................................. */
+
+#skill {
+  background-color: #fff;
+  color: #191919;
+  height: 200px;
+}
+
+.row img {
+  padding-left: 10px;
+}
+
+/* Contact ........................................................ */
+
+#contact {
+  background-color: #fff;
+  height: 150px;
+  color: #191919;
+}
+
+#contact .row .fa-brands {
+  padding-left: 10px;
+  color: #191919;
+  padding: 10px;
+}
+
+#contact .row .fa-solid {
+  padding-left: 10px;
+  color: #191919;
+  padding: 10px;
+}
+
+#contact .row .fa-brands:hover {
+  color: #343434;
+}
+
+#contact .row .fa-solid:hover {
+  color: #343434;
+}
+
+/* footer */
+.footer {
+  background-color: #191919;
+  height: 30px;
+  color: #fff;
+  font-style: normal;
+  font-size: 11px;
+  padding-top: 5px;
+}
+
+.footer span {
+  font-style: italic;
+}
+
+/* peoject1 */
